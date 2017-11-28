@@ -77,3 +77,5 @@ fig.suptitle('Not occupied')
 plt.tight_layout()
 fig.subplots_adjust(top=0.88)
 plt.savefig("Fig3.pdf")
+
+occupancy_data.close()
